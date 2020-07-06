@@ -23,6 +23,7 @@ console.log(process.env.USERDB);
         useUnifiedTopology: true,
       }
     );
+    console.log('Servidor connectado');
   } catch (error) {
     console.log('Erro ao conectar no MongoDB');
   }
